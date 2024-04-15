@@ -9,7 +9,7 @@
     <!-- FavIcon -->
     <link rel="shortcut icon" href="../paginas/img/icones/swapcarb.ico" type="image/x-icon">
 
-    <title>SwapCarb</title>
+    <title>SwapCarbon</title>
 </head>
 
     <!-- Header -->
