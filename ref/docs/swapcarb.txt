@@ -1,0 +1,31 @@
+# SwapCarb
+
+* O que é?
+  É um projeto da disciplina de Adm.Empresarial, que tem como tema o desenvolvimento de um negócio sustentavel até o fim do semestre.
+
+ > Membros
+    Marcos, Naan, José, Bernardo, João Pedro, João Maurício, Guilherme 
+
+ > Qual objetivo?
+    É um trabalho que demonstre um modelo de negócio sustentavel 
+    para o meio ambiente e para as pessoas no Brasil
+    e se possível no mundo.
+
+ > Como será feito?
+    As ideias estão sendo feitas através de anotações que inclusive foram
+    feitas por alguns integrantes do grupo já
+    no Google Drive, a príncipio a ideia era 
+    resolver o problema de enchentes em alguns pontos de Petrópolis mas agora 
+    se estendeu e foi para um modelo de négocio
+    unilateral que é um banco de "creditos de carbono", uma wallet ou melhor
+    dizendo uma plataforma.
+
+  - Google drive:
+    (https://drive.google.com/drive/folders/1uh8_pGS363aYlH4xwIsENq96kZLY3VJv)
+
+  - Miro: 
+    (https://miro.com/app/board/uXjVKZY4UpA=/)
+
+ > Qual o prazo de entrega?
+ Indeterminado pela greve, porém quando voltar deve-se
+ apresentar um Canvas do projeto.

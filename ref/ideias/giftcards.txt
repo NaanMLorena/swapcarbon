@@ -1,0 +1,13 @@
+GiftCards no SwapCarb?
+
+Introdução da ideia
+	Eu Marcos, tive uma ideia a ser acrescentada no projeto SwapCarb, que consiste nos usuarios poderem a cada transação do monetário para carbono ou vice versa possam acumular pontos num “marketplace”  dentro da plataforma/banco, será uma sessão responsável por acumular pontos e oferecer “GiftCards” para os usuarios sejam esses tanto para entreterimento como por exemplo um Ifood, Uber, recursos em Jogos, e  para instituições como doações para ONG’s de caráter cultural, recreativo, esportivo, profissional, ambiental, religioso e etc... 
+
+Pode ser viavel econômicamente?
+	(A pesquisar)
+
+Como fazer?
+	Se for viável economicamente, no ínicio ou depois durante o crescimento do projeto pode ser interessante acrescentar esse meio de auxiliar a transação dos créditos, por meio do mesmo sistema de cambio do banco, porém com alterações para algo virtual que não geraria gastos para a empresa durante as transações de créditos e monetários.
+
+Fontes sobre o assunto:
+https://www.vctbrasil.com.br/blog/producao-de-gift-cards-melhore-o-desempenho-das-suas-vendas#:~:text=Gift%20cards%20%C3%A9%20uma%20ferramenta,enriquecem%20o%20valor%20da%20marca.
