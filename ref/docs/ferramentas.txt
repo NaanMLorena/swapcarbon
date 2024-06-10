@@ -1,0 +1,5 @@
+Serão utilizadas para a construção da página
+
+React Nativo
+Expo
+HTML5 e CSS3
