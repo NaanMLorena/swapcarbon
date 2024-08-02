@@ -2,7 +2,9 @@
     text-decoration: none;
 }
 
-/* Animação para fazer a imagem ou link pulsar ao passar o mouse */
+
+
+/* Animação para tags ao toque */
 @keyframes expansao-de-tag {
   0% { 
       transform: scale(1.7);
