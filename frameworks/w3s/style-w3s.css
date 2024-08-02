@@ -6,12 +6,12 @@
 
 /*Extra Large screens - Extra large desktops*/
 .header{
-    height: 0%;
 }
 .heeder-large-screen{
     justify-content:flex-start !important;
     color:orange;
-    font-size: 16px !important;
+    font-size: 13px bold !important;
+
 
 
 }
@@ -24,7 +24,7 @@
     color:orange;
 }
 
-.hero{
+.conteudo{
     height: 650px;
     background-image: url("https://spaces.w3schools.com/images/HVYepJYeHdQ.jpg");
     background-repeat: no-repeat;
@@ -34,12 +34,12 @@
 
     
 }
-.hero-description{
+.conteudo-description{
     height: 650px;
     background-color: rgba(0, 0, 21, .7);
     display: flex;
 }
-.hero-text{
+.conteudo-text{
     width:70% !important;
     margin: auto !important;
     display: flex;
@@ -48,11 +48,11 @@
 }
 
 
-.hero-text p{
+.conteudo-text p{
     color:white;
     width: 50%;
 }
-.hero-title{
+.conteudo-title{
      /* padding-top:80px; */
      font-weight: 800;
     text-transform: uppercase;
@@ -85,7 +85,7 @@ main{
 }
 
 
-.game-logo img{
+.conteudo-logo img{
     width:100%;
     height: 100%;
     object-fit: contain;
@@ -95,15 +95,14 @@ h3{
     text-align: center;
 }
 
-.games{
+.conteudos{
     display: flex;
-    
     flex-wrap: wrap;
     align-items: center;
     /* background-color:	rgba(0, 0, 47,0.3); */
     justify-content: space-evenly;
 }
-.game-list{
+.conteudo-list{
     margin: 30px;;
     padding: 20px;
     height: 200px;
@@ -119,29 +118,29 @@ h3{
     border-radius: 10px;
     border: 1px solid rgba( 255, 255, 255, 0.18 );
 }
-.game-list:hover{
+.conteudo-list:hover{
     transform: scale(1.05);
 }
 .store{
     margin-top: 50px;
 }
-.game-store{
+.conteudo-store{
     margin-top: 20px !important;
 display: flex;
 justify-content: space-evenly;
 flex-wrap: wrap;
 }
-.game-image{
+.conteudo-image{
     width:300px;
     height: 180px;
     
 }
-.game-image img{
+.conteudo-image img{
     width:100%;
     height: 100%;
     object-fit: cover;
 }
-.game-store-list{
+.conteudo-store-list{
     width:300px;
     height: 300px;
      margin: 20px;
@@ -167,7 +166,7 @@ h4{
     color:white;
     font-weight: 700;
 }
-.event-hero{
+.event-conteudo{
     display: flex;
     flex-wrap: wrap;
     background: rgba(255, 75, 255, 0.1);
@@ -258,16 +257,16 @@ html {
 
 /* ____________________________________________________________________*/
 /*MEDIA QUERIES*/
-/*Large screens - Desktop*/
+/* Conteudo Responsivo*/
 @media screen and (max-width: 1500px) {
-    .hero{
+    .conteudo{
         height: 550px !important;;
         background-image: url("https://spaces.w3schools.com/images/HVYepJYeHdQ_1200_600.jpg");
     }
-    .hero-description{
+    .conteudo-description{
         height: 550px
     }
-    .hero-title{
+    .conteudo-title{
         font-size:50px;
     }
 }
@@ -281,7 +280,7 @@ html {
     
 }
 
-/*Small screens - tablets*/
+/* Mobile First */
 @media screen and (max-width: 768px) {
     .heeder-large-screen{
         display:block !important;
@@ -289,21 +288,21 @@ html {
     header a{
         font-size: 14px;
     }
-    .hero{
+    .conteudo{
         height: 400px !important;
         background-image: url("https://spaces.w3schools.com/images/HVYepJYeHdQ_480_300.jpg");
     }
-    .hero-description{
+    .conteudo-description{
         height: 400px;
         background-color: rgba(0, 0, 21, .7);
         
     
     }
-    .hero-title{
+    .conteudo-title{
         font-size: 35px;;
         
     }
-    .hero-text p{
+    .conteudo-text p{
         width: 80%;;
         font-size: 13px;
     }
@@ -326,7 +325,7 @@ html {
     
 
     }
-    .event-hero{
+    .event-conteudo{
         width: 80% ;
         margin: auto;
     }
@@ -360,20 +359,20 @@ html {
     .heeder-large-screen{
         display:block !important;
     }
-    .hero{
+    .conteudo{
         height: 450px !important;
         background-image: url("https://spaces.w3schools.com/images/HVYepJYeHdQ_480_300.jpg");
     }
-    .hero-description{
+    .conteudo-description{
         height: 450px;
         background-color: rgba(0, 0, 21, .7);
     
     }
-    .hero-title{
+    .conteudo-title{
         font-size: 30px;;
         padding-top: 70px;
     }
-    .hero-text p{
+    .conteudo-text p{
         width: 100%;;
         font-size: 13px;
     }
@@ -396,7 +395,7 @@ html {
     
 
     }
-    .event-hero{
+    .event-conteudo{
         width: 90% ;
         margin: auto;
     }
