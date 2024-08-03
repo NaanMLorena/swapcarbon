@@ -1,265 +1,63 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  <link rel="stylesheet" href="./frameworks/w3s/style-w3s.css">
-  <link rel="stylesheet" href="./frameworks/swapcarbon/styles-swapcarb.css">
-  <link rel="shortcut icon" href="./ref/img/icon/swapcarb.ico" type="image/x-icon">
-  <title>SwapCarb</title>
-</head>
-<body>
-  <header class=" w3-top header w3-bar heeder-large-screen" style="background-color: #000015;"> <p class="img-animada w3-bar-item w3-animate-expanded w3-padding-large"><img src="./ref/img/em-uso/swapcarb-logo.png" class="img-animate" width="100"></p>
-
-    <!-- Navbar -->
-    <a class="img-animada w3-bar-item w3-hide-medium w3-hide-large w3-padding-large w3-right" href="javascript:void(0);" onclick="myFunction()" title="Toggle Navigation Menu"><i class="img-animada fa fa-bars"></i></a>
-    <a href="#creditos-de-carb" class="link-animado w3-bar-item  w3-hide-small w3-padding-large"><img src="./ref/img/icon/cadastro-de-usuario-swapcarb.png" width="25"> Crie sua conta</a>
-    <a href="#creditos-de-carb" class="link-animado w3-bar-item  w3-hide-small w3-padding-large"><img src="./ref/img/icon/login-usuario-swapcarb.png" width="25"> Entrar</a>
-    <a href="#creditos-de-carb" class="link-animado w3-bar-item  w3-hide-small w3-padding-large"><img src="./ref/img/icon/sobre-creditos-de-carbono-swapcarb.png" width="25"> Sobre Créditos de Carbono</a>
-    <a href="#suporte" class="link-animado w3-bar-item w3-hide-small w3-padding-large"><img src="./ref/img/icon/suporte-swapcarb.png" width="25"> Suporte</a>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1"> 
+    <!-- Framework Bootstrap 5 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="./frameworks/bootstrap/js/bootstrap.bundle.js">
+    <link rel="stylesheet" href="./frameworks/bootstrap/js/bootstrap.min.js">
     
+    <!-- Framework SwapCarb-->
+    <link rel="stylesheet" href="./frameworks/swapcarb/styles-swapcarb.css">
 
-    <!-- Navbar do Menu Responsivo -->
-    <div id="navDemo" class="w3-bar-block w3-hide w3-hide-large w3-hide-medium w3-large" style="background-color: #000015;">
-      <a href="#creditos-de-carb" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()"><img src="./ref/img/icon/cadastro-de-usuario-swapcarb.png" width="25"> Crie sua conta</a>
-      <a href="#suporte" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()"><img src="./ref/img/icon/login-usuario-swapcarb.png" width="25"> Entrar</a>
-      <a href="#creditos-de-carb" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()"><img src="./ref/img/icon/sobre-creditos-de-carbono-swapcarb.png" width="25"> Sobre Créditos de Carbono</a>
-      <a href="#suporte" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()"><img src="./ref/img/icon/suporte-swapcarb.png" width="25"> Suporte</a>
-    </div>
-  </header>
+    <!-- FavIcon -->
+     <link rel="shortcut icon" href="./ref/img/icon/swapcarb.ico" type="image/x-icon">
+    <title>SwapCarb</title>
+  </head>
+  <body>
 
-  <br><br><br><br>
-
-  <section>
-    <div class="conteudo" id="sobre">
-      <div class="conteudo-description">
-        <div class="conteudo-text">
-          <h1 class="conteudo-title">Comece hoje a usar créditos de carbono!</h1>
-          <p style="float: left;">
-            Somos uma startup que visa facilitar o seu câmbio de créditos de carbono
-            de uma forma rápida!
-          </p>
-
-          <span class="w3-text-white social" style="margin-top:050px">
-            <h6>Siga-nos para novidades nas redes!</h6>
-            <div class="w3-margin-top">
-              <a href="#"><i class="fa fa-facebook-official w3-hover-opacity icons"></i></a>
-              <a href="#"><i class="fa fa-instagram w3-hover-opacity icons"></i></a>
-              <a href="#"><i class="fa fa-linkedin w3-hover-opacity icons"></i></a>
-            </div>
-          </span>
-        </div>
-      </div>
-    </div>
-  </section>
-
-
-
-  <!-- Possivel referência de footer segundo o template 
-      <h2 style="color: whitesmoke; position: -ms-page;">Tenha contato com o nosso suporte</h2>
-      <div class="suporte" id="suporte" style="padding-bottom: 10px !important;">
-      <div class="suporte-list suporte-address"  >
-        <h5><span><i class="fa fa-map-marker w3-xlarge"></i></span>Endereço</h5>
-        <p>
-        <ul class="w3-text-light-grey">
-         Akersgata 12, Oslo, Norway
-          <br>
-         Bogstadveien 34, Oslo, Norway
-          <br>
-         Karl Johans gate 1, Oslo, Norway
-        </ul>
-        </p>
-      </div>
-
-      <br><br>
-
-      <div class="suporte-list">
-        <h5><span><i class="fa fa-envelope w3-xlarge w3-text-light-grey"></i></span>Receive weekly update email</h5>
-        <div class="email-suporte">
-          <input placeholder="Email"  type="email" style="margin: 8px 0px !important;"/>
+    <header>
+      <nav class="top container-fluid navbar navbar-expand-lg ">
+      
+        <a class="navbar-brand" href="index.html" target="_top"><img src="./ref/img/em-uso/swapcarb-logo.png" width="100" class="img-animada"></a>
           
-          <button class="w3-btn w3-red w3-round " style="width: 100px; padding:3px 10px !important">Subscribe</button>
-        </div>
-  
-      </div>
-      <div class="suporte-list" >
-        <h5><span><i class="fa fa-phone w3-xlarge w3-text-light-grey"></i></span>Phone</h5>
-        <p>  763-957-6781</p>
-        <p>706-734-2591</p>
-      </div>
-
-      </div>
-    </div>
-        
-      </main>
-    -->
-
-  <!--  Possivel referência para conteudo de página segundo o template 
-  <main style="padding-bottom:40px ;">
-        <h2 class="title" id="conteudos">List of conteudos</h2>
-        <div class="conteudos">
-          <div class="conteudo-list">
-            <img src="https://spaces.w3schools.com/images/playstation-brands.svg" alt="playstation-brands" style="width:100px; height: 100px;">
-           <h3>Playstation</h3>
-          <p></p>
-          </div>
-          <div class="conteudo-list">
-              <img src="https://spaces.w3schools.com/images/pacman.svg" alt="pacman" style="width:100px; height: 100px;">
-            <h3>Pacman</h3>
-            <p></p>
-          </div>
-          <div class="conteudo-list">
-              <img src="https://spaces.w3schools.com/images/spider.svg" alt="spiderman" style="width:100px; height: 100px;">
-            <h3>Spiderman</h3>
-            <p></p>
-          </div>
-          <div class="conteudo-list">
-              <img src="https://spaces.w3schools.com/images/monster.svg" alt="monster" style="width:100px; height: 100px;"/>  
-            <h3>Monster</h3>
-             <p></p>
-          </div>
-          <div class="conteudo-list">
-            <img src="https://spaces.w3schools.com/images/joker.svg" alt="joker" style="width:100px; height: 100px;"/ >
-          <h3>Joker</h3>
-          <p></p>
-          </div>
-          <div class="conteudo-list">
-              <img src="https://spaces.w3schools.com/images/halloween.svg" alt="halloween" style="width:100px; height: 100px;"/>
-            <h3>Halloween</h3>
-            <p></p>
-          </div>
-        
-        
-        </div>
-        <div class="store" id="creditos-de-carb">
-         <h2 class="title">Our Store</h2>
-        
-        <div class="conteudo-store">
-
-          <div class="conteudo-store-list">
-            <div class="conteudo-image">
-              <img src="https://spaces.w3schools.com/images/dbgbyzFR8uI.jpg" alt="Photo by Katharina Gloth | Unsplash"/>
-            </div>
-            <div class="store-text-description">
-             <h4>Keyboard</h4>
-             <span> 12 items </span>
-             <span>$9</span>
-            </div>
-
-          </div>
-          <div class="conteudo-store-list">
-            <div class="conteudo-image">
-              <img src="https://spaces.w3schools.com/images/qAgZDCgb7go.jpg" alt="Photo by Maverick Timotius | Unsplash"/>
-            </div>
-            <div class="store-text-description">
-              <h4>Server</h4>
-              <span> 15 items </span>
-              <span>$50</span>
-            </div>
-
-          </div>
-          <div class="conteudo-store-list">
-            <div class="conteudo-image">
-              <img src="https://spaces.w3schools.com/images/xo-MJALGPrI.jpg" alt="Photo by Emiliano Cicero | Unsplash"/>
-            </div>
-            <div class="store-text-description">
-              <h4>Mouse</h4>
-              <span> 25 items </span>
-              <span>$8</span>
-            </div>
-
-          </div>
-          <div class="conteudo-store-list">
-            <div class="conteudo-image">
-              <img src="https://spaces.w3schools.com/images/sYhyE3CeTy4.jpg"  alt="Photo by wu yi | Unsplash"/>
-            </div>
-            <div class="store-text-description">
-              <h4>Headphone</h4>
-              <span> 40 items </span>
-              <span>$18</span>
-            </div>
-
-          </div>
-          <div class="conteudo-store-list">
-            <div class="conteudo-image">
-              <img src="https://spaces.w3schools.com/images/Hpaq-kBcYHk.jpg" alt="Photo by Alienware | Unsplash"/>
-            </div>
-            <div class="store-text-description">
-              <h4>Monitor</h4>
-              <span> 10 items </span>
-              <span>$20</span>
-            </div>
-
-          </div>
-          <div class="conteudo-store-list">
-            <div class="conteudo-image">
-              <img src="https://spaces.w3schools.com/images/dkb3wApu5XQ.jpg" alt="Photo by Sean Stone | Unsplash"/>
-            </div>
-            <div class="store-text-description">
-              <h4>Joystick</h4>
-              <span> 10 items </span>
-              <span>$20</span>
-            </div>
-
-          </div>
-
-        </div>
-      </div>
-    -->
-
-  <!-- Possivel referência para tela de cadastro segundo o template
-    
-       <div class="event" id="events" >
-        <h2 class="title">Obtenha Recompensas</h2>
-
-        <div class="event-conteudo" style="position: relative; ">
+          <a class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+           <img src="./ref/img/icon/menu-hamburguer-swapcarb.png" width="40" class="img-animada">
+          </a>
           
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <br>
+            <ul class="navbar-nav me-5 mb-5 mb-md-1">
 
-          <div class="event-text">
-            <h2  class="badge" style=" background-color: orange; color:#000015 ;padding:10px"> Spiderman challenge | Sunday February 6 </h2>
-             <h1 class="event-title">A world light-years beyond your imagination.</h1>
-  
-             
-              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Possimus earum omnis qui nobis a veritatis deserunt aspernatur vero corporis ipsa architecto, sapiente odit mollitia distinctio ut reprehenderit esse ad libero!</p>
-              <h4>Save your place</h4>
-              <div>
-                <label id="icon" for="name">Name</label>
-                <br>
-                <input type="text" name="name" id="name" placeholder="Name" required/>
-                <br>
-                <br>
-                <label id="icon" for="name">Email</label>
-                <br>
-                <input type="text" name="name" id="name" placeholder="Email" required/>
+                <a class="link-animado nav-item nav-link" href="#" style="color: orange;"><img src="./ref/img/icon/cadastro-de-usuario-swapcarb.png" width="25"> Cadastrar</a>
+              
+                <a class="link-animado nav-item nav-link" href="#" style="color: orange;"><img src="./ref/img/icon/login-usuario-swapcarb.png" width="25"> Entrar</a>
                 
-              </div>
-              <button class="w3-btn w3-red w3-margin-top w3-round">Register</button>
-                
+                <a class="link-animado nav-item nav-link" href="#" style="color: orange;"><img src="./ref/img/icon/sobre-creditos-de-carbono-swapcarb.png" width="25"> Créditos de Carbono</a>
+            </ul>
           </div>
-          
-        </div>
+        </nav>
+        <hr style="color: orange; margin: 0; padding: 0; text-decoration: solid 3px;">    
+    </header>
 
-      </div>
-      <div>
-      -->
+    <link rel="stylesheet" href="./frameworks/swapcarb/main-styles-swapcarb.css">
+    <main>
+      
+    </main>
+
+    <footer>
+    </footer>
 
 
-  <!-- Script do Menu Responsivo -->
-  <script>
-    function myFunction() {
-      var x = document.getElementById("navDemo");
-      if (x.className.indexOf("w3-show") == -1) {
-        x.className += " w3-show";
-      } else {
-        x.className = x.className.replace(" w3-show", "");
-      }
-    }
-  </script>
 
-</body>
 
+
+
+
+
+    <!-- Script do Framework Bootstrap 5-->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+  </body>
 </html>

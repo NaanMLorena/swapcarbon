@@ -1,8 +1,9 @@
 * {
     text-decoration: none;
+    margin: 0%;
+    padding: 0%;
+    border: 0%;
 }
-
-
 
 /* Animação para tags ao toque */
 @keyframes expansao-de-tag {
@@ -13,17 +14,25 @@
    100% {
      transform: scale(1); 
     } /* Tamanho final */
-}
+ }
 
-
-.link-animado:hover {
+ .link-animado:hover {
   position: relative;
   animation: expansao-de-tag 0.7 forwards;
   opacity: 87%;
-}
+ }
 
-.img-animada:hover{
+ .img-animada:hover{
   animation: expansao-de-tag 0.7 forwards;
+ }
+
+/* Background */
+body{
+  background-color: #000015;
 }
 
+/* Cor de Destaque */
+.cor-destaque {
+  color: #ffa500; 
+}
 

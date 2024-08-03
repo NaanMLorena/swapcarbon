@@ -1,21 +1,24 @@
 /*CSS variables section*/
 :root {
-    background-color: #000015;
+    background-color: rgba(0, 0, 21, 1);
     
 }
 
 /*Extra Large screens - Extra large desktops*/
 .header{
-}
+    
 
+}
 .heeder-large-screen{
-    justify-content: start !important;
-    color: orange;
-    font-size: 13px bold !important;
-}
+    display: flex !important;
+    justify-content: space-evenly !important;
+    color:orange;
+    font-size: 18px !important;
 
+
+}
 #navDemo{
-    background-color: #1d232f;
+    background-color: #000015;
     
 }
 #navDemo a{
@@ -23,21 +26,22 @@
     color:orange;
 }
 
-.conteudo{
+.hero{
     height: 650px;
-    background-image: url("../../ref/img/em-uso/banners/creditos-de-carb-america-latina.jpg");
+    background-image: url("https://spaces.w3schools.com/images/HVYepJYeHdQ.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position:center;
-    background-color: #1d232f;   
-}
+    background-color: #000015; 
 
-.conteudo-description{
+    
+}
+.hero-description{
     height: 650px;
     background-color: rgba(0, 0, 21, .7);
     display: flex;
 }
-.conteudo-text{
+.hero-text{
     width:70% !important;
     margin: auto !important;
     display: flex;
@@ -46,11 +50,11 @@
 }
 
 
-.conteudo-text p{
+.hero-text p{
     color:white;
     width: 50%;
 }
-.conteudo-title{
+.hero-title{
      /* padding-top:80px; */
      font-weight: 800;
     text-transform: uppercase;
@@ -83,7 +87,7 @@ main{
 }
 
 
-.conteudo-logo img{
+.game-logo img{
     width:100%;
     height: 100%;
     object-fit: contain;
@@ -93,14 +97,15 @@ h3{
     text-align: center;
 }
 
-.conteudos{
+.games{
     display: flex;
+    
     flex-wrap: wrap;
     align-items: center;
     /* background-color:	rgba(0, 0, 47,0.3); */
     justify-content: space-evenly;
 }
-.conteudo-list{
+.game-list{
     margin: 30px;;
     padding: 20px;
     height: 200px;
@@ -116,29 +121,29 @@ h3{
     border-radius: 10px;
     border: 1px solid rgba( 255, 255, 255, 0.18 );
 }
-.conteudo-list:hover{
+.game-list:hover{
     transform: scale(1.05);
 }
 .store{
     margin-top: 50px;
 }
-.conteudo-store{
+.game-store{
     margin-top: 20px !important;
 display: flex;
 justify-content: space-evenly;
 flex-wrap: wrap;
 }
-.conteudo-image{
+.game-image{
     width:300px;
     height: 180px;
     
 }
-.conteudo-image img{
+.game-image img{
     width:100%;
     height: 100%;
     object-fit: cover;
 }
-.conteudo-store-list{
+.game-store-list{
     width:300px;
     height: 300px;
      margin: 20px;
@@ -164,7 +169,7 @@ h4{
     color:white;
     font-weight: 700;
 }
-.event-conteudo{
+.event-hero{
     display: flex;
     flex-wrap: wrap;
     background: rgba(255, 75, 255, 0.1);
@@ -255,16 +260,16 @@ html {
 
 /* ____________________________________________________________________*/
 /*MEDIA QUERIES*/
-/* Conteudo Responsivo*/
+/*Large screens - Desktop*/
 @media screen and (max-width: 1500px) {
-    .conteudo{
+    .hero{
         height: 550px !important;;
         background-image: url("https://spaces.w3schools.com/images/HVYepJYeHdQ_1200_600.jpg");
     }
-    .conteudo-description{
+    .hero-description{
         height: 550px
     }
-    .conteudo-title{
+    .hero-title{
         font-size:50px;
     }
 }
@@ -278,7 +283,7 @@ html {
     
 }
 
-/* Mobile First */
+/*Small screens - tablets*/
 @media screen and (max-width: 768px) {
     .heeder-large-screen{
         display:block !important;
@@ -286,21 +291,21 @@ html {
     header a{
         font-size: 14px;
     }
-    .conteudo{
+    .hero{
         height: 400px !important;
         background-image: url("https://spaces.w3schools.com/images/HVYepJYeHdQ_480_300.jpg");
     }
-    .conteudo-description{
+    .hero-description{
         height: 400px;
         background-color: rgba(0, 0, 21, .7);
         
     
     }
-    .conteudo-title{
+    .hero-title{
         font-size: 35px;;
         
     }
-    .conteudo-text p{
+    .hero-text p{
         width: 80%;;
         font-size: 13px;
     }
@@ -323,7 +328,7 @@ html {
     
 
     }
-    .event-conteudo{
+    .event-hero{
         width: 80% ;
         margin: auto;
     }
@@ -357,20 +362,20 @@ html {
     .heeder-large-screen{
         display:block !important;
     }
-    .conteudo{
+    .hero{
         height: 450px !important;
         background-image: url("https://spaces.w3schools.com/images/HVYepJYeHdQ_480_300.jpg");
     }
-    .conteudo-description{
+    .hero-description{
         height: 450px;
         background-color: rgba(0, 0, 21, .7);
     
     }
-    .conteudo-title{
+    .hero-title{
         font-size: 30px;;
         padding-top: 70px;
     }
-    .conteudo-text p{
+    .hero-text p{
         width: 100%;;
         font-size: 13px;
     }
@@ -393,7 +398,7 @@ html {
     
 
     }
-    .event-conteudo{
+    .event-hero{
         width: 90% ;
         margin: auto;
     }
