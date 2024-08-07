@@ -1,8 +1,12 @@
-* {
-    text-decoration: none;
-    margin: 0%;
-    padding: 0%;
-    border: 0%;
+*{
+  font-family: 'Helvetica';
+}
+
+
+a {
+  display: inline-block; /* Define o link como um bloco inline */
+  margin-right: 10px; /* Define a margem direita de cada link */
+  text-decoration: none;
 }
 
 /* Animação para tags ao toque */
