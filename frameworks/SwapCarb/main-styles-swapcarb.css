@@ -1,0 +1,10 @@
+/* Caixa de texto */
+.caixa-de-texto {
+    width: 70%;
+    height: 40%;
+    color: orange;
+    margin: 0;
+    padding: 0;
+    border: 0.4px solid;
+    border-radius: 10px;
+  }
